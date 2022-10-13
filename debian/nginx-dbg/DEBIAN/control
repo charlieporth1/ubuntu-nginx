@@ -1,0 +1,13 @@
+Package: nginx-dbg
+Source: nginx
+Version: 1.23.1-1~focal+njs+quic+http3+pagespeed+brolti+boringssl+oscp
+Architecture: amd64
+Maintainer: NGINX Packaging <nginx-packaging@f5.com>
+Installed-Size: 22922
+Depends: nginx (= 1.23.1-1~focal+njs+quic+http3+pagespeed+brolti+boringssl+oscp)
+Section: debug
+Priority: optional
+Homepage: https://nginx.org
+Description: nginx debug symbols
+ This package contains the debugging symbols for nginx.
+Build-Ids: 8c2d1b7ec86bc0c02d6b52155a1de563073f1bf8 ae1a497194ed14c23b33e1726e206d40c7281819

@@ -1,0 +1,15 @@
+Package: nginx
+Version: 1.23.1-1~focal+njs+quic+http3+pagespeed+brolti+boringssl+oscp
+Architecture: amd64
+Maintainer: NGINX Packaging <nginx-packaging@f5.com>
+Installed-Size: 11492
+Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.1.4), lsb-base (>= 3.0-6), adduser
+Conflicts: nginx-common, nginx-core
+Replaces: nginx-common, nginx-core
+Provides: httpd, nginx, nginx-r1.23.1
+Section: httpd
+Priority: optional
+Homepage: https://nginx.org
+Description: high performance web server
+ nginx [engine x] is an HTTP and reverse proxy server, as well as
+ a mail proxy server.
